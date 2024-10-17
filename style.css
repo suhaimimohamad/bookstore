@@ -1,0 +1,7 @@
+.header__menu li {
+  display: inline;
+  list-style: none;
+}
+.header__menu li::marker {
+  color: azure;
+}
