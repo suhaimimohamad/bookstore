@@ -1,7 +1,82 @@
-.header__menu li {
-  display: inline;
-  list-style: none;
+body {
+  margin: 0;
 }
-.header__menu li::marker {
-  color: azure;
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin: 0;
+}
+.header-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000;
+  padding: 10px;
+  border-radius: 25px;
+  width: 90%;
+  margin-top: 26px;
+}
+.header-menu li {
+  display: inline;
+}
+
+.header-menu li a {
+  text-decoration: none;
+}
+.link_items {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.0015em;
+  text-align: center;
+  padding: 10px;
+}
+.link_items a:hover {
+  color: #f4d867;
+}
+.link_items a {
+  color: #ffffffb4;
+}
+
+.header__logo {
+  width: 166px;
+  height: 40px;
+  padding: 5.55px 0.26px 0px 0px;
+  gap: 0px;
+  opacity: 0px;
+}
+.header__loginbutton {
+  font-family: Inter;
+  font-size: 16px;
+  width: Hug (106px) px;
+  height: Hug (56px) px;
+  padding: 16px 28px 16px 28px;
+  /* gap: 12px; */
+  border-radius: 16px;
+  opacity: 0px;
+  /* outline: none; */
+  border: none;
+  background: #f4ce47;
+  cursor: pointer;
+  color: #000;
+}
+.header__icon img {
+  padding: 5px;
+}
+.titlebar h1 {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 48px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.titlebar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f4ce47;
 }
